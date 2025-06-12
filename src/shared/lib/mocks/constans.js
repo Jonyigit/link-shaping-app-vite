@@ -1,0 +1,87 @@
+import { v4 as uuidv4 } from "uuid";
+
+export const platformMocks = [
+    {
+        id: uuidv4(),
+        imgUrl: "/src/shared/assets/icons/githup.svg",
+        platformName: "GitHub",
+        classUrl: "",
+        color: "#1A1A1A",
+    },
+    {
+        id: uuidv4(),
+        imgUrl: "/src/shared/assets/icons/youtube.svg",
+        platformName: "YouTube",
+        classUrl: "",
+        color: "#EE3939",
+    },
+    {
+        id: uuidv4(),
+        imgUrl: "./src/shared/assets/icons/linkedIn.svg",
+        platformName: "LinkedIn",
+        classUrl: "",
+        color: "#2D68FF",
+    },
+    {
+        id: uuidv4(),
+        imgUrl: "./src/shared/assets/icons/facebook.svg",
+        platformName: "Facebook",
+        classUrl: "",
+        color: "#2442AC",
+    },
+    {
+        id: uuidv4(),
+        imgUrl: "./src/shared/assets/icons/twitch.svg",
+        platformName: "Twitch",
+        classUrl: "",
+        color: "#EE3FC8",
+    },
+    {
+        id: uuidv4(),
+        imgUrl: "./src/shared/assets/icons/dev.svg",
+        platformName: "Dev.to",
+        classUrl: "",
+        color: "#333333",
+    },
+    {
+        id: uuidv4(),
+        imgUrl: "./src/shared/assets/icons/codewars.svg",
+        platformName: "Codewars",
+        classUrl: "",
+        color: "#8A1A50",
+    },
+    {
+        id: uuidv4(),
+        imgUrl: "./src/shared/assets/icons/codepen.svg",
+        platformName: "Codepen",
+        classUrl: "",
+    },
+    {
+        id: uuidv4(),
+        imgUrl: "./src/shared/assets/icons/freeCodeCamp.svg",
+        platformName: "freeCodeCamp",
+        classUrl: "",
+        color: "#302267",
+    },
+    {
+        id: uuidv4(),
+        imgUrl: "./src/shared/assets/icons/gitlab.svg",
+        platformName: "GitLab",
+        classUrl: "",
+        color: "#EB4925",
+    },
+    {
+        id: uuidv4(),
+        imgUrl: "./src/shared/assets/icons/hashnode.svg",
+        platformName: "Hashnode",
+        classUrl: "",
+        color: "#0330D1",
+    },
+    {
+        id: uuidv4(),
+        imgUrl: "./src/shared/assets/icons/stackoverflow.svg",
+        platformName: "Stack Overflow",
+        classUrl: "border",
+        color: "#EC7100",
+    },
+];

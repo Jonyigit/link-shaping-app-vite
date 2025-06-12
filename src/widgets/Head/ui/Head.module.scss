@@ -1,0 +1,14 @@
+@mixin flex-utils($justifyProd, $alignProd) {
+    display: flex;
+    justify-content: $justifyProd;
+    align-items: $alignProd;
+}
+
+.head {
+    padding: 0px 0px 24px 0px;
+    .container {
+        max-width: 1392px;
+        margin: 0 auto;
+        @include flex-utils(space-between, center);
+    }
+}
