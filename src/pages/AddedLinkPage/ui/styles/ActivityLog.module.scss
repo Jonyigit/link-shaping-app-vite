@@ -100,6 +100,11 @@
                         justify-content: center;
                         align-items: center;
                         gap: 8px;
+                        .icon {
+                            path {
+                                fill: #fff;
+                            }
+                        }
                         span {
                             color: var(--color8);
                             font-weight: 400;

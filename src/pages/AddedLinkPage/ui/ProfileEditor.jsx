@@ -35,7 +35,7 @@ function ProfileEditor({ selectedPlatforms, setSelectedPlatforms }) {
             return {
                 id: link.id,
                 platformName: link.platform,
-                imgUrl: platformInfo?.imgUrl || "",
+                Icon: platformInfo?.Icon || "",
                 color: platformInfo?.color || "#EEE",
                 url: link.url,
             };

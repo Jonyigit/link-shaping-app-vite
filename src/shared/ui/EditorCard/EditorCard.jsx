@@ -62,7 +62,7 @@ function EditorCard(props) {
                             disabled={availablePlatforms.length === 0}
                         >
                             <div className={styles.box}>
-                                <img src={selectPlatform.imgUrl} alt="platform icon" />
+                                <selectPlatform.Icon />
                                 <span>{selectPlatform.platformName}</span>
                             </div>
                             {availablePlatforms.length > 0 && (
@@ -84,7 +84,7 @@ function EditorCard(props) {
                                         )}
                                         onClick={() => handleSelectPlatform(platform)}
                                     >
-                                        <img src={platform.imgUrl} alt="platform icon" />
+                                        <platform.Icon />
                                         <span>{platform.platformName}</span>
                                     </div>
                                 ))}

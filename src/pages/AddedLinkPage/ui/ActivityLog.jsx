@@ -31,7 +31,7 @@ function ActivityLog({ selectedPlatforms }) {
                                 target="_blank"
                             >
                                 <div className={styles.info}>
-                                    <img src={platform.imgUrl} alt={platform.platformName} />
+                                    <platform.Icon className={styles.icon} />
                                     <span>{platform.platformName}</span>
                                 </div>
                                 <img src={arrowRightIcon} alt="link-shaping-app arrow-right icon svg" />
